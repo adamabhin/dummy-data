@@ -14,31 +14,20 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<!--
-pom.xml memiliki struktur wajib yakni "<project></project>","<modelVersion></modelVersion>","<groupId></groupId>","<artifactId></artifactId>", dan "<version></version>". untuk penamaan disini terserah naun disarankan menggunakan alterra seperti contoh dibawah  
--->
+  
 <project>
 <modelVersion>4.0.0</modelVersion>
  <groupId>org.alterra.id</groupId>
     <artifactId>migrasi</artifactId>
     <version>1</version>
-<!--
-Struktur build confluence publisher perlu untuk didefinisikan dengan "<build></build>", "<plugins></plugins>", dan "<plugin></plugin>"   
--->
 <build>
   <plugins>
     <plugin>
-<!--
-Struktur "<groupId></groupId>","<artifactId></artifactId>", dan "<version></version>" di build berbeda dengan project karena untuk penamaanya sudah ditetapkan yakni org.sahli.asciidoc.confluence.publisher untuk groupId dan asciidoc-confluence-publisher-maven-plugin untuk artifactId. Sedangkan version menggunakan versi 0.10.0 yang latest.      
--->
    <groupId>org.sahli.asciidoc.confluence.publisher</groupId>
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
      <version>0.10.0</version>
-<!--
-Struktur "<configuration></configuration>" ini mandatory untuk digunakan, penjelasan lebih lanjut akan dilanjutkan di tabel di bawah source code ini   
--->
       <configuration>
-        <asciidocRootFolder>System-Name</asciidocRootFolder>
+        <asciidocRootFolder>system-name</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
         <skipSslVerification></skipSslVerification>
