@@ -47,7 +47,7 @@ Struktur "<configuration></configuration>" ini mandatory untuk digunakan, penjel
         <ancestorId>101680455</ancestorId>
         <username>${username}</username> <!-- or read from property -->
         <password>${password}</password> <!-- or read from property -->
-        <orphanRemovalStrategy>KEEP_ORPHANS<orphanRemovalStrategy>
+        <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>
       </configuration>
     </plugin>
     </plugins>
