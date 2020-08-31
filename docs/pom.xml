@@ -27,13 +27,13 @@
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>
      <version>0.10.0</version>
       <configuration>
-        <asciidocRootFolder>system-name</asciidocRootFolder>
+        <asciidocRootFolder>System Name</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
         <skipSslVerification></skipSslVerification>
         <maxRequestsPerSecond></maxRequestsPerSecond>
         <spaceKey>SYS</spaceKey>
-        <ancestorId>94634130</ancestorId>
+        <ancestorId>101680455</ancestorId>
         <username>${username}</username> <!-- or read from property -->
         <password>${password}</password> <!-- or read from property -->
         <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>
@@ -41,4 +41,4 @@
     </plugin>
     </plugins>
 </build>
-</project>  
+</project>
