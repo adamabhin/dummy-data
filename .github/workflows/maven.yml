@@ -1,4 +1,4 @@
-name: Confluence Publisher BPA
+name: Confluence Publisher coba
 
 on:
   push:
