@@ -41,7 +41,7 @@ Struktur "<groupId></groupId>","<artifactId></artifactId>", dan "<version></vers
 Struktur "<configuration></configuration>" ini mandatory untuk digunakan, penjelasan lebih lanjut akan dilanjutkan di tabel di bawah source code ini   
 -->
       <configuration>
-        <asciidocRootFolder>coba-ah</asciidocRootFolder>
+        <asciidocRootFolder>System-Name</asciidocRootFolder>
         <sourceEncoding>UTF-8</sourceEncoding> <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>
         <skipSslVerification></skipSslVerification>
