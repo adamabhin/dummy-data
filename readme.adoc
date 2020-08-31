@@ -23,4 +23,4 @@
 
 == Documentation
 
-www.google.com/[Search In Google]
+https//google.com[Search In Google]
