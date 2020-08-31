@@ -13,12 +13,12 @@
 
 == Technical Information
 
-<<system-doc/url-system-name.adoc#, System URL System Name>>
+<<doc-system/url-system-name.adoc#, System URL System Name>>
 
 
 == Onboarding Information
 
-<<system-doc/dev-onboarding-system-name.adoc#, Developer Onboarding System Name>>
+<<doc-system/dev-onboarding-system-name.adoc#, Developer Onboarding System Name>>
 
 
 == Documentation
