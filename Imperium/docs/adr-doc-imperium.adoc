@@ -1,0 +1,9 @@
+= ADR Document Imperium
+
+The documents below are the history of all decisions applied by the development team based on the exploration
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<adr-doc-imperium/0001-adr-decision-1-imperium.adoc#, [ADR-0001] Decision 1 Imperium>> |Template ADR
+|Next Decision | 
+|===
