@@ -3,7 +3,7 @@ name: Confluence Publisher coba
 on:
   push:
      tags: 
-       - 'v*-dummytw'
+       - 'v*-ah'
 jobs:
     build:
   
@@ -15,8 +15,13 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: Build with Maven
+      - name: Imperium
         env:
-          username: ${{ secrets.USER_ID }}
-          password: ${{ secrets.PASSWORD_ID }}
-        run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file docs/pom.xml -Dusername=$username -Dpassword=$password
+          username: ${{ secrets.ID }}
+          password: ${{ secrets.TOKEN }}
+        run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file pom-imperium.xml -Dusername=$username -Dpassword=$password
+      - name: Imperium
+        env:
+          username: ${{ secrets.ID }}
+          password: ${{ secrets.TOKEN }}
+        run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file pom-raven.xml -Dusername=$username -Dpassword=$password
