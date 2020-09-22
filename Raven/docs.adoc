@@ -19,4 +19,10 @@ Sistem Raven terintegrasi dengan database Postgre _(Sepulsa Reporting)_ dalam me
 
 <<docs/flow-wire-raven.adoc#, Flow and Wireframe Raven>>
 
+== Dokumentation 
+
 <<docs/release-note-raven.adoc#, Release Note Raven>>
+
+<<docs/adr-doc-raven.adoc#, ADR Document Raven>>
+
+<<docs/product-information-raven.adoc#, Product Information Document Raven>>
