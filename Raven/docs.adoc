@@ -21,7 +21,7 @@ Sistem Raven terintegrasi dengan database Postgre _(Sepulsa Reporting)_ dalam me
 
 == Dokumentation 
 
-<<docs/release-note-raven.adoc#, Release Note Raven>>
+https://github.com/sepulsa/raven/releases[Release Note]
 
 <<docs/adr-doc-raven.adoc#, ADR Document Raven>>
 
